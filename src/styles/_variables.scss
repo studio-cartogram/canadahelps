@@ -1,0 +1,129 @@
+$cherry: #96164A;
+$cherryLight: #D97AA0;
+$cherryLighter: #F1D7E2;
+$cherryDark: #800637;
+$cherryDarker: #47021E;
+
+$blue: #1466A9;
+$blueLight: #B4E0FA;
+$blueLighter: #EBF4FA;
+$blueDark: #0D497A;
+$blueDarker: #00152A;
+
+$green: #5A9303;
+$greenLight: #A2C371;
+$greenLighter: #E2F4C7;
+$greenDark: #3E6503;
+$greenDarker: #243B01;
+
+$yellow: #F5BD3E;
+$yellowLight: #FFEA8A;
+$yellowLighter: #FFFFE3;
+$yellowDark: #9C6F19;
+$yellowDarker: #243B01;
+
+$error: #FF0036;
+$success: #67BF59;
+
+$ink: #212B36;
+$inkLight: #454F5B;
+$inkLighter: #637381;
+$inkLightest: #919EAB;
+
+$sky: #C4CDD5;
+$skyLight: #DFE3E8;
+$skyLighter: #F4F6F8;
+$skyLightest: #F9FAFB;
+
+$fontFamily: 'Lato', sans-serif;
+$fontWeightBold: 700;
+$fontWeightRegular: 400;
+
+$d-base: 8px;
+$d-half: $d-base/2;
+$d-duo: $d-base * 2;
+$d-trio: $d-base * 3;
+$d-quad: $d-base * 4;
+$d-quin: $d-base * 5;
+$d-sex: $d-base * 6;
+$d-sep: $d-base * 7;
+$d-oct: $d-base * 8;
+$d-nano: $d-base * 9;
+$d-dec: $d-base * 10;
+$d-elf: $d-base * 11;
+$d-doz: $d-base * 12;
+$d-trez: $d-base * 13;
+$d-quez: $d-base * 14;
+$d-fez: $d-base * 15;
+$d-sez: $d-base * 16;
+$d-twe: $d-base * 20;
+
+
+// Styleguide Only Styles
+
+.styleguide--container {
+  padding: $d-quin;
+}
+
+.styleguide--header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+
+  a {
+    text-decoration: none;
+    color: $blue;
+    font-weight: $fontWeightRegular;
+
+    &:hover {
+      opacity: 0.8;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  .Heading {
+    padding-bottom: 0;
+  }
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: $inkLighter;
+}
+
+.component--header {
+  padding-top: $d-quin;
+}
+
+.component--link {
+  display: flex;
+  padding-bottom: $d-dec;
+}
+
+.component--instance {
+  padding: $d-trio $d-sex;
+}
+
+.instance-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grid-item {
+  margin-right: $d-trio;
+  padding: $d-duo;
+  text-align: center;
+
+  svg {
+    display: inline-flex;
+    padding-bottom: $d-base;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

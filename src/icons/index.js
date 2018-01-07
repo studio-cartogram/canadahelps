@@ -1,0 +1,138 @@
+// General
+export {default as LOGOICON} from "./logo-icon.svg"
+export {default as MORE} from "./general-more.svg"
+export {default as MAIL} from "./general-mail.svg"
+export {default as DROPDOWN} from "./general-dropdown.svg"
+export {default as CLOSEALT} from "./close-alt.svg"
+export {default as FACEBOOK} from "./social-facebook.svg"
+export {default as GOOGLE} from "./social-google.svg"
+export {default as SOCIALMAIL} from "./social-mail.svg"
+export {default as PINTEREST} from "./social-pinterest.svg"
+export {default as TWITTER} from "./social-twitter.svg"
+export {default as ACTIVATE} from "./general-activate.svg"
+export {default as ARCHIVE} from "./general-archive.svg"
+export {default as ARROWDOWN} from "./general-arrow-down.svg"
+export {default as ARROWLEFT} from "./general-arrow-left.svg"
+export {default as ARROWRIGHT} from "./general-arrow-right.svg"
+export {default as ARROWUP} from "./general-arrow-up.svg"
+export {default as BACK} from "./general-back.svg"
+export {default as BASKET} from "./general-basket.svg"
+export {default as BOOKMARK} from "./general-bookmark.svg"
+export {default as CHECK} from "./general-check.svg"
+export {default as CLOCK} from "./general-clock.svg"
+export {default as CLOSE} from "./general-close.svg"
+export {default as COPY} from "./general-copy.svg"
+export {default as DEFAULT} from "./general-default.svg"
+export {default as DOWNLOAD} from "./general-download.svg"
+export {default as DOWNLOADALT} from "./general-downloadalt.svg"
+export {default as EDIT} from "./general-edit.svg"
+export {default as EMBED} from "./general-embed.svg"
+export {default as ERROR} from "./general-error.svg"
+export {default as FAQ} from "./general-faq.svg"
+export {default as FAVOURITES} from "./general-favourites.svg"
+export {default as LIGHTBULB} from "./general-lightbulb.svg"
+export {default as LINK} from "./general-link.svg"
+export {default as LOCATION} from "./general-location.svg"
+export {default as LOCK} from "./general-lock.svg"
+export {default as MAILALT} from "./general-mail.svg"
+export {default as MANAGE} from "./general-manage.svg"
+export {default as MINUS} from "./general-minus.svg"
+export {default as PLUS} from "./general-plus.svg"
+export {default as QUESTION} from "./general-question.svg"
+export {default as SEARCH} from "./general-search.svg"
+export {default as SUCCESS} from "./general-success.svg"
+export {default as VIEW} from "./general-view.svg"
+export {default as TRASH} from "./general-trash.svg"
+export {default as USER} from "./general-user.svg"
+
+// Major
+export {default as DOCUMENTLG} from "./large-document.svg"
+export {default as LEAF} from "./large-leaf.svg"
+export {default as PARTNERSHIPS} from "./large-partnerships.svg"
+
+// Minor
+export {default as DEACTIVATE} from "./minor-deactivate.svg"
+export {default as BOLD} from "./minor-bold.svg"
+export {default as DOCUMENT} from "./minor-document.svg"
+export {default as FORWARD} from "./minor-forward.svg"
+export {default as ITALIC} from "./minor-italic.svg"
+export {default as LINKALT} from "./minor-link.svg"
+export {default as OL} from "./minor-ol.svg"
+export {default as REPLY} from "./minor-reply.svg"
+export {default as UL} from "./minor-ul.svg"
+export {default as UNDERLINE} from "./minor-underline.svg"
+
+// Mobile
+export {default as HAMBURGER} from "./mobile-hamburger.svg"
+export {default as LOGO} from "./mobile-logo.svg"
+
+// Empty
+export {default as EMPTYCHAR} from "./empty-charities.svg"
+
+// Bequest
+export {default as ACCESS} from "./large-bequest-access.svg"
+export {default as ADD} from "./large-bequest-add.svg"
+export {default as HISTORY} from "./large-bequest-history.svg"
+export {default as NOTES} from "./large-bequest-notes.svg"
+export {default as UPDATE} from "./large-bequest-update.svg"
+
+// Campaigns
+export {default as ANNIVERSARY} from "./campaign-anniversary.svg"
+export {default as BIRTHDAY} from "./campaign-birthday.svg"
+export {default as CANADA150} from "./campaign-canada150.svg"
+export {default as CHALLENGE} from "./campaign-challenge.svg"
+export {default as ENGAGEMENT} from "./campaign-engagement.svg"
+export {default as GIFT} from "./campaign-gift.svg"
+export {default as GRADUATION} from "./campaign-graduation.svg"
+export {default as HUMANITARIAN} from "./campaign-humanitarian.svg"
+export {default as INMEMORY} from "./campaign-inmemory.svg"
+export {default as NEWBABY} from "./campaign-newbaby.svg"
+export {default as OTHER} from "./campaign-other.svg"
+export {default as SPORT} from "./campaign-sport.svg"
+
+// Donor Giving Dashboard
+export {default as ANIMALSLG} from "./dgd-large-animals.svg"
+export {default as ARTSLG} from "./dgd-large-arts.svg"
+export {default as BEQUESTLG} from "./dgd-large-bequest.svg"
+export {default as ENVLG} from "./dgd-large-environment.svg"
+export {default as EVENTSLG} from "./dgd-large-events.svg"
+export {default as FUNDRAISERSLG} from "./dgd-large-fundraisers.svg"
+export {default as HEALTHLG} from "./dgd-large-health.svg"
+export {default as INDIGENOUSLG} from "./dgd-large-indigenous.svg"
+export {default as INTERNATIONALLG} from "./dgd-large-international.svg"
+export {default as MONTHLYLG} from "./dgd-large-monthly.svg"
+export {default as ONETIMELG} from "./dgd-large-onetime.svg"
+export {default as PUBLICLG} from "./dgd-large-public.svg"
+export {default as RELIGIONLG} from "./dgd-large-religion.svg"
+
+// Discovery
+export {default as SOCIAL} from "./discovery-social.svg"
+export {default as ANIMALS} from "./discovery-animals.svg"
+export {default as ART} from "./discovery-art.svg"
+export {default as EDUCATION} from "./discovery-education.svg"
+export {default as ENVIRONMENT} from "./discovery-environment.svg"
+export {default as HEALTH} from "./discovery-health.svg"
+export {default as INDIGENOUS} from "./discovery-indigenous.svg"
+export {default as INTERNATIONAL} from "./discovery-international.svg"
+export {default as PUBLIC} from "./discovery-public.svg"
+export {default as RELIGION} from "./discovery-religion.svg"
+
+// Events
+export {default as ATTENDEES} from "./large-events-attendees.svg"
+export {default as SALES} from "./large-events-sales.svg"
+
+// Impact
+export {default as IMPACTINFO} from "./impact-info.svg"
+export {default as IMPACTCHANGE} from "./impact-change.svg"
+export {default as IMPACTOUTCOME} from "./impact-outcome.svg"
+export {default as IMPACTRESULTS} from "./impact-results.svg"
+export {default as IMPACTSTRATEGIES} from "./impact-results.svg"
+export {default as IMPACTTESTIMONIALS} from "./impact-testimonials.svg"
+export {default as PARTTIMELG} from "./impact-large-parttime.svg"
+
+// P2P
+export {default as INDIVIDUAL} from "./p2p-individual.svg"
+export {default as TEAM} from "./p2p-team.svg"
+
+
+

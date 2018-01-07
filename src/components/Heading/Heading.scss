@@ -1,0 +1,45 @@
+@import "../../styles/init";
+
+.Heading {
+  font-weight: $fontWeightBold;
+  padding-bottom: $d-duo;
+  line-height: 1.5;
+
+  &.Heading--xlarge, 
+  h1 {
+    font-size: $d-quad;
+  }
+
+  &.Heading--large, 
+  h2 {
+    font-size: $d-trio;
+  }
+
+  &.Heading--medium,
+  h3 {
+    font-size: 18px;
+  }
+
+  &.Heading--small,
+  h4 {
+    font-size: $d-duo;
+  }
+
+  &.Heading--micro,
+  h5 {
+    font-size: 14px;
+  }
+
+  &.Heading--nano,
+  h6 {
+    font-size: 12px;
+  }
+
+  &.Heading--subdued {
+    color: $inkLight;
+  }
+
+  &.Heading--regular {
+    font-weight: $fontWeightRegular;
+  }
+}

@@ -1,0 +1,100 @@
+@import "../../styles/init";
+
+.Button {
+  border-radius: 3px;
+  padding: 11px $d-duo;
+  background: $skyLight;
+  color: $inkLight;
+  font-size: 14px;
+  font-weight: $fontWeightBold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid $sky;
+
+  svg {
+    fill: $inkLight;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
+
+  &.Button--primary {
+    background: $blue;
+    color: white;
+    border: 1px solid $blueDark;
+  }
+
+  &.Button--secondary {
+    background: white;
+    color: $blue;
+    border: 1px solid $skyLight;
+  }
+
+  &.Button--outline {
+    background: transparent;
+    border: 1px solid $sky;
+  }
+
+  &.Button--plain {
+    background: transparent;
+    border-radius: none;
+    color: $blue;
+    padding: 0;
+    font-weight: $fontWeightRegular;
+    letter-spacing: 0;
+    border: 0;
+  }
+
+  &.Button--small {
+    font-size: 12px;
+    padding: 4px $d-base;
+  }
+
+  &.Button--large {
+    font-size: $d-duo;
+    padding: $d-duo $d-quad;
+  }
+
+  &.Button--disabled {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.5;
+      transition: none;
+    }
+  }
+
+  &.Button--icon {
+    border-radius: $d-dec;
+    padding: $d-base;
+  }
+
+  &.Button--icon-left {
+    padding: $d-base $d-duo;
+    border-radius: 3px;
+    flex-direction: row-reverse;
+    
+    .Icon {
+      padding-right: $d-base;
+    }
+  }
+
+  &.Button--icon-right {
+    padding: $d-base $d-duo;
+    border-radius: 3px;
+    
+    .Icon {
+      padding-left: $d-base;
+    }
+  }
+
+  &.Button--destructive {
+    color: white;
+    background: $error;
+    border: 0;
+  }
+}
