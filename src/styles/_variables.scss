@@ -35,6 +35,8 @@ $skyLight: #DFE3E8;
 $skyLighter: #F4F6F8;
 $skyLightest: #F9FAFB;
 
+$white: #ffffff;
+
 $fontFamily: 'Lato', sans-serif;
 $fontWeightBold: 700;
 $fontWeightRegular: 400;
@@ -62,14 +64,42 @@ $d-twe: $d-base * 20;
 // Styleguide Only Styles
 
 .styleguide--container {
+  display: flex;
   padding: $d-quin;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.styleguide--header {
+.styleguide--nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: baseline;
+  align-items: center;
+
+  ul {
+    padding: 0;
+    list-style: none;
+    
+    li {
+      margin-right: 0;
+      margin-left: $d-duo;
+    }
+  }
+
+  .nav--logo {
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .nav--header {
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .nav--links {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   a {
     text-decoration: none;
@@ -81,10 +111,29 @@ $d-twe: $d-base * 20;
       transition: 0.2s ease-in-out;
     }
   }
+}
 
-  .Heading {
-    padding-bottom: 0;
-  }
+.styleguide--page {
+  display: flex;
+  flex: 1;
+}
+
+.styleguide--content {
+  flex: 1;
+  order: 2;
+  background: $white;
+  padding: $d-sep;
+  margin-top: $d-quin;
+}
+
+.styleguide--sidebar  {
+  order: 1;
+  width: 20%;
+  padding: $d-quin $d-trio $d-trio 0 ;
+}
+
+.Heading {
+  padding-bottom: 0;
 }
 
 p {
@@ -93,13 +142,16 @@ p {
   color: $inkLighter;
 }
 
-.component--header {
-  padding-top: $d-quin;
-}
-
 .component--link {
   display: flex;
-  padding-bottom: $d-dec;
+  padding-bottom: $d-trio;
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 .component--instance {
