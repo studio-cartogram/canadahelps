@@ -3,8 +3,8 @@
 .Button {
   border-radius: 3px;
   padding: 11px $d-duo;
-  background: $skyLight;
-  color: $inkLight;
+  background: $white;
+  color: $ink;
   font-size: 14px;
   font-weight: $fontWeightBold;
   letter-spacing: 0.5px;
@@ -34,19 +34,23 @@
     border: 1px solid $skyLight;
   }
 
-  &.Button--outline {
-    background: transparent;
-    border: 1px solid $sky;
+  &.Button--tertiary {
+    background: $skyLight;
+    color: $inkLight;
   }
 
   &.Button--plain {
     background: transparent;
     border-radius: none;
     color: $blue;
-    padding: 0;
+    padding: 0 !important;
     font-weight: $fontWeightRegular;
     letter-spacing: 0;
     border: 0;
+
+    svg {
+      fill: $blue;
+    }
   }
 
   &.Button--small {

@@ -10,6 +10,5 @@ subtitle: "Buttons make common actions immediately visible and easy to perform w
 
 Used most in the interface. Only use another style if a button requires more or less visual weight.
 
-<Button text="Cancel" link="http://cartogram.ca" />
 
 </div>
