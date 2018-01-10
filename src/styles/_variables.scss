@@ -67,7 +67,6 @@ $d-twe: $d-base * 20;
   display: flex;
   padding: $d-quin;
   flex-direction: column;
-  height: 100vh;
 }
 
 .styleguide--nav {
@@ -124,12 +123,25 @@ $d-twe: $d-base * 20;
   background: $white;
   padding: $d-sep;
   margin-top: $d-quin;
+  box-shadow: 0 31px 41px 0 rgba(33,43,54,0.10), 0 2px 16px 0 rgba(33,43,54,0.08);
+
+  hr {
+    color: $sky;
+    margin: $d-quin 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid $skyLight;
+  }
 }
 
 .styleguide--sidebar  {
   order: 1;
   width: 20%;
   padding: $d-quin $d-trio $d-trio 0 ;
+  
+  .Heading {
+    padding-bottom: $d-trio;
+  }
 }
 
 .Heading {
@@ -144,7 +156,7 @@ p {
 
 .component--link {
   display: flex;
-  padding-bottom: $d-trio;
+  padding-bottom: $d-duo;
   text-decoration: none;
   color: $blue;
 
