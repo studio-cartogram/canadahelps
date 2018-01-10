@@ -36,9 +36,9 @@ export default ({ children, data }) => {
         {children()}
       </main>
       <aside className="styleguide--sidebar">
-        <Heading size="micro" text="Components" />
+        <Heading subdued regular size="micro" text="Components" />
   {/* <Heading size="micro" text={data.allMarkdownRemark.totalCount} /> */}
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {/* {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link className="component--link"
               to={node.fields.slug}
@@ -46,7 +46,12 @@ export default ({ children, data }) => {
               {node.frontmatter.title}{" "}
             </Link>
           </div>
-        ))}
+        ))} */}
+
+        <Link className="component--link" to="/button/">Button</Link>
+        <Link className="component--link" to="/buttongroup/">Button Group</Link>
+        <Link className="component--link" to="/actionlist/">Action List</Link>
+        <Link className="component--link" to="/icon/">Icon</Link>
       </aside>
     </div>
 
