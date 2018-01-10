@@ -1,20 +1,5 @@
-const path = require('path');
+const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-
-// exports.modifyWebpackConfig = ({ config }) => {
-//   config.merge({
-//     resolve: {
-//       root: path.resolve(__dirname, './src'),
-//       alias: {
-//         styles: 'styles',
-//         images: 'images',
-//         data: 'data',
-//         components: 'components',
-//       },
-//     },
-//   });
-//   return config;
-// };
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators

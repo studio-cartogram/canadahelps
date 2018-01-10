@@ -5,8 +5,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "start": "micro"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
@@ -17,9 +16,6 @@
     "gatsby-plugin-postcss-sass": "^1.0.15",
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26",
-    "micro": "latest",
-    "typography-theme-fairy-gates": "^0.15.11",
-    "typography-theme-github": "^0.15.10"
+    "gatsby-transformer-remark": "^1.7.26"
   }
 }
