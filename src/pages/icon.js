@@ -71,7 +71,7 @@ export default () => (
 
       <h3>Campaign</h3>
       <p>Icons used for campaign-specific UI.</p>
-      
+    
       <div className="instance-grid">
 
         <div className="grid-item">
@@ -113,6 +113,54 @@ export default () => (
         <div className="grid-item">
           <Icon icon={'CANADA150'} />
           <Heading subdued regular text="canada150" size="nano" />
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="component--instance">
+
+      <h3>CHARITY</h3>
+      <p>Icons used for charity-specific UI.</p>
+    
+      <div className="instance-grid">
+
+        <div className="grid-item">
+          <Icon icon={'ART'} />
+          <Heading subdued regular text="anniversary" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'EDUCATION'} />
+          <Heading subdued regular text="birthday" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'ENVIRONMENT'} />
+          <Heading subdued regular text="challenge" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'HEALTH'} />
+          <Heading subdued regular text="newbaby" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'INDIGENOUS'} />
+          <Heading subdued regular text="inmemory" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'INTERNATIONAL'} />
+          <Heading subdued regular text="humanitarian" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'PUBLIC'} />
+          <Heading subdued regular text="graduation" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'RELIGION'} />
+          <Heading subdued regular text="engagement" size="nano" />
+        </div>
+        <div className="grid-item">
+          <Icon icon={'SOCIAL'} />
+          <Heading subdued regular text="other" size="nano" />
         </div>
 
       </div>

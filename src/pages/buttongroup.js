@@ -41,6 +41,23 @@ export default () => (
         </Button>
       </ButtonGroup>
 
+      <hr />
+
+      <ButtonGroup>
+        <Button icon secondary link="#">
+          <Icon icon={'FACEBOOK'} />
+        </Button>
+        <Button icon secondary link="#">
+          <Icon icon={'TWITTER'} />
+        </Button>
+        <Button icon secondary link="#">
+          <Icon icon={'GOOGLE'} />
+        </Button>
+        <Button icon secondary link="#">
+          <Icon icon={'SOCIALMAIL'} />
+        </Button>
+      </ButtonGroup>
+
     </div>
 
     <div className="component--instance">

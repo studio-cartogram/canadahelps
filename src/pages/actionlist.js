@@ -4,13 +4,14 @@ import {
   ButtonGroup,
   Input,
   Heading,
+  ActionList,
   Icon,
 } from "../components";
 
 export default () => (
   <div className="component--container">
 
-    <div className="component--header">
+    {/* <div className="component--header">
       <Heading size="xlarge" text="Action List" />
       <Heading subdued regular size="large" text="Action lists render a list of actions or selectable options. This component is usually placed inside a popover container to create a dropdown menu or to let users select from a list of options." />
     </div>
@@ -25,7 +26,7 @@ export default () => (
         </Button>
       </ActionList>
 
-    </div>
+    </div> */}
 
   </div>
 );

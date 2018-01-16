@@ -32,6 +32,10 @@
     background: white;
     color: $blue;
     border: 1px solid $skyLight;
+
+    svg {
+      fill: $blue;
+    } 
   }
 
   &.Button--tertiary {

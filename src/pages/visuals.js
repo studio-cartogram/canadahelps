@@ -1,8 +1,16 @@
 import React from "react";
+import Link from "gatsby-link";
+import '../styles/main.scss';
+import {
+  Icon,
+  Heading,
+} from "../components";
 
 export default () => (
   <div>
-    <h1>About me</h1>
-    <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
-  </div>
+        <div className="component--header">
+          <Heading size="xlarge" text="Visuals" />
+          <Heading size="large" text="This will be where rules for things like Typography, Colour and Illustrations/Photos live." subdued regular />
+        </div>
+    </div>
 );
