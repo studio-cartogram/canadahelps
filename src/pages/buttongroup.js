@@ -20,7 +20,7 @@ export default () => (
       <p>Use when you have multiple buttons to space them out evenly.</p>
       <br />
       <ButtonGroup>
-        <Button tertiary text="Cancel" link="#" />
+        <Button text="Cancel" link="#" />
         <Button primary text="Save" link="#" />
       </ButtonGroup>
 

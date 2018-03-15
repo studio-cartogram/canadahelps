@@ -10,12 +10,12 @@
   "dependencies": {
     "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
     "classnames": "^2.2.5",
-    "gatsby": "^1.9.145",
-    "gatsby-link": "^1.6.32",
+    "gatsby": "^1.9.217",
+    "gatsby-link": "^1.6.37",
     "gatsby-plugin-google-fonts": "0.0.3",
-    "gatsby-plugin-postcss-sass": "^1.0.15",
-    "gatsby-plugin-typography": "^1.7.10",
-    "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26"
+    "gatsby-plugin-postcss-sass": "^1.0.17",
+    "gatsby-plugin-typography": "^1.7.15",
+    "gatsby-source-filesystem": "^1.5.24",
+    "gatsby-transformer-remark": "^1.7.33"
   }
 }

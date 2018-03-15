@@ -4,7 +4,12 @@ import classNames from "classnames";
 import Link from 'gatsby-link';
 import './Heading.scss';
 
-const Heading = ({ text, size, subdued, regular }) => {
+const Heading = ({ 
+  text, 
+  size, 
+  subdued, 
+  regular 
+}) => {
   const className = classNames('Heading', {
     [`Heading--${size}`]: true,
     'Heading--subdued': subdued,

@@ -88,6 +88,10 @@ $d-twe: $d-base * 20;
   .nav--logo {
     flex: 1;
     justify-content: flex-start;
+
+    svg {
+      width: auto;
+    }
   }
 
   .nav--header {
@@ -185,6 +189,10 @@ p {
   svg {
     display: inline-flex;
     padding-bottom: $d-base;
+  }
+
+  .Heading {
+    padding-top: $d-base;
   }
 }
 

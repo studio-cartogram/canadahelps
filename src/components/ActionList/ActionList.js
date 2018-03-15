@@ -11,39 +11,26 @@ import {
 
 const ActionList = ({
   buttons,
-  text,
-  sectioned,
+  segmented,
   children,
+  orientation,
 }) => {
   const className = classNames('ActionList', {
-    'ActionList--sectioned': sectioned,
+    'ActionList--segmented': segmented,
+    [`ActionList--${orientation}`]: true,
   });
   return (
-    <div className={className}>
-      <Button plain
-      >
-        {text}
-        {children}
-      </Button>
+    <div 
+      className={className}
+    >
+      {buttons}
+      {children}
     </div>
   );
 };
 
-  // <div className={className}>
-  //   <Button plain>
-  //   {text}
-  //   {icon}
-  // </Button>
-  //   <div className="ActionList-items">
-  //     <Button plain>
-  //       {text}
-  //       {children}
-  //     </Button>
-  //   </div>
-  // </div>
-
 ActionList.propTypes = {
-  text: PropTypes.string,
+  orientation: PropTypes.oneOf(['left', 'right', 'center']),
 };
 
 export default ActionList

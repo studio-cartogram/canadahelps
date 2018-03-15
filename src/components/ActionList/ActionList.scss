@@ -1,11 +1,85 @@
 @import "../../styles/init";
 
-.ActionList {
+.ActionList--toggle {
+  text-align: center;
+}
 
-  .Action {
-    margin-right: $d-duo;
-  } 
+.ActionList--group {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.ActionList--container {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin: $d-base;
+  opacity: 1;
+  box-shadow: 0 0 0 1px rgba(6,44,82,.1), 0 2px 16px rgba(33,43,54,.08);
+  border-radius: 6px;
+  transition: opacity .2s cubic-bezier(.36,0,1,1);
+}
+
+.ActionList--tip {
+  position: absolute;
+  top: -$d-base;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: $d-duo;
+  width: $d-duo;
+  background: $white;
+  border-top-left-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(6,44,82,.1), 0 2px 16px rgba(33,43,54,.08);
+}
+
+.ActionList {
   
+  ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: list-item;
+  }
+
+  .ActionList--wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+
+  .Button--ActionList--item {
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    padding: $d-base $d-duo;
+    background: transparent;
+    border-radius: 0;
+    color: $blue;
+    font-weight: $fontWeightRegular;
+    letter-spacing: 0;
+    border: 0;
+    
+    svg {
+      fill: $blue;
+    }
+
+    &:hover {
+      background: $blue;
+      outline: none;
+      color: #fff;
+
+      svg {
+        fill: $white;
+      }
+    }
+  }
 }
 
 .ActionList--segmented {

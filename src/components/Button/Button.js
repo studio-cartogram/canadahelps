@@ -22,6 +22,7 @@ const Button = ({
   iconLeft,
   iconRight,
   children,
+  actionListItem,
 }) => {
   const className = classNames('Button', {
     [`Button--${size}`]: true,
@@ -34,6 +35,7 @@ const Button = ({
     'Button--icon': icon,
     'Button--icon-left': iconLeft,
     'Button--icon-right': iconRight,
+    'Button--ActionList--item': actionListItem,
   });
   return (
     <a

@@ -1,4 +1,5 @@
 // General
+export {default as LOGO} from "./logo.svg"
 export {default as LOGOICON} from "./logo-icon.svg"
 export {default as MORE} from "./general-more.svg"
 export {default as MAIL} from "./general-mail.svg"
@@ -54,6 +55,7 @@ export {default as PARTNERSHIPS} from "./large-partnerships.svg"
 export {default as DEACTIVATE} from "./minor-deactivate.svg"
 export {default as BOLD} from "./minor-bold.svg"
 export {default as DOCUMENT} from "./minor-document.svg"
+export {default as EXPAND} from "./minor-expand.svg"
 export {default as FORWARD} from "./minor-forward.svg"
 export {default as ITALIC} from "./minor-italic.svg"
 export {default as LINKALT} from "./minor-link.svg"
@@ -64,7 +66,7 @@ export {default as UNDERLINE} from "./minor-underline.svg"
 
 // Mobile
 export {default as HAMBURGER} from "./mobile-hamburger.svg"
-export {default as LOGO} from "./mobile-logo.svg"
+export {default as LOGOMOBILE} from "./mobile-logo.svg"
 
 // Empty
 export {default as EMPTYCHAR} from "./empty-charities.svg"
@@ -91,6 +93,7 @@ export {default as OTHER} from "./campaign-other.svg"
 export {default as SPORT} from "./campaign-sport.svg"
 
 // Donor Giving Dashboard
+export {default as GOAL} from "./dgd-goal.svg"
 export {default as ANIMALSLG} from "./dgd-large-animals.svg"
 export {default as ARTSLG} from "./dgd-large-arts.svg"
 export {default as BEQUESTLG} from "./dgd-large-bequest.svg"
@@ -104,6 +107,7 @@ export {default as MONTHLYLG} from "./dgd-large-monthly.svg"
 export {default as ONETIMELG} from "./dgd-large-onetime.svg"
 export {default as PUBLICLG} from "./dgd-large-public.svg"
 export {default as RELIGIONLG} from "./dgd-large-religion.svg"
+export {default as SOCIALLG} from "./dgd-large-social.svg"
 
 // Discovery
 export {default as SOCIAL} from "./discovery-social.svg"
@@ -129,6 +133,7 @@ export {default as IMPACTRESULTS} from "./impact-results.svg"
 export {default as IMPACTSTRATEGIES} from "./impact-results.svg"
 export {default as IMPACTTESTIMONIALS} from "./impact-testimonials.svg"
 export {default as PARTTIMELG} from "./impact-large-parttime.svg"
+export {default as FULLTIMELG} from "./impact-large-fulltime.svg"
 
 // P2P
 export {default as INDIVIDUAL} from "./p2p-individual.svg"

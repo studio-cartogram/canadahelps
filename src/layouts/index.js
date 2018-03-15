@@ -39,6 +39,7 @@ export default ({ children, data }) => {
         <Heading subdued regular size="micro" text="Components" />
         <Link className="component--link" to="/button/">Button</Link>
         <Link className="component--link" to="/buttongroup/">Button Group</Link>
+        <Link className="component--link" to="/actionlist/">Action List</Link>
         <Link className="component--link" to="/icon/">Icon</Link>
       </aside>
     </div>
